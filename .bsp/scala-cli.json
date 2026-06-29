@@ -1,0 +1,20 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "/opt/homebrew/bin/scala-cli",
+    "bsp",
+    "--json-options",
+    "/Users/Jan/Projects/dakkak/.scala-build/ide-options-v2.json",
+    "--json-launcher-options",
+    "/Users/Jan/Projects/dakkak/.scala-build/ide-launcher-options.json",
+    "--envs-file",
+    "/Users/Jan/Projects/dakkak/.scala-build/ide-envs.json",
+    "/Users/Jan/Projects/dakkak"
+  ],
+  "version": "1.14.0",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}
