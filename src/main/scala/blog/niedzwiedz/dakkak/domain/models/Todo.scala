@@ -23,13 +23,14 @@ case class Todo(
   title: String,
   description: Option[String],
   status: ToDoStatus,
-  todo_type: ToDoType,
+  todoType: ToDoType,
   createdAt: LocalDateTime,
   updatedAt: LocalDateTime,
   owner: User,
-  assignees: List[User],
-  labels: List[String],
+  assignees: Option[List[User]],
+  labels: Option[List[String]],
   dueDate: Option[LocalDateTime],
+  comments: Option[List[Comment]],
 )
 
 case class Comment(

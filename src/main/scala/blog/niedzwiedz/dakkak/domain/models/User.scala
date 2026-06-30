@@ -5,7 +5,7 @@ import java.time.LocalDateTime
 sealed trait UserRole
 object UserRole:
   case object Admin extends UserRole
-  case object User extends UserRole
+  case object Regular extends UserRole
 
 
 
